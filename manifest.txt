@@ -1,0 +1,23 @@
+Project: Biox Systems QR Code Generator
+Author: Vineetha Kilaru
+Date: 07/13/2025
+
+Description:
+A Python application to generate QR codes from URL input and save them as PNG images.
+
+Dependencies:
+- Python >=3.7
+- qrcode
+- Pillow
+
+Files:
+- main.py : Main script to generate QR codes
+- manifest.txt : This manifest file
+
+Usage:
+1. Install dependencies:
+   pip install qrcode[pil]
+2. Run main.py:
+   python main.py
+3. When prompted, enter a URL.
+4. The QR code image will be saved in the same folder.
